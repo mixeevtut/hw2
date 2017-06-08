@@ -13,7 +13,7 @@ public class Max {
         int [] max = new int[] {first,second,third};
         int maxValue = max [0];
         for (int i = 0; i < max.length; i++) {
-            if(maxValue < max[i]) {
+            if (maxValue < max[i]) {
                 maxValue = max[i];
             }
         }
